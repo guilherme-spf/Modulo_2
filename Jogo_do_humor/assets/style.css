@@ -1,28 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 #top{
-position: absolute;
-width: 1560px;
-height: 330px;
-left: 0px;
-top: 0px;
-    
-background: #B58831;
-    
+background-color: #B58831;
+width: 100%;
+height: 300px;
 }
 
-#img_top{
-position: absolute;
-width: 544px;
-height: 328px;
-left: 896px;
-top: 0px
-}
-
-#title{
-width: 570px;
-height: 54px;
-left: calc(50% - 551px/2 - 346.5px);
-top: calc(50% - 54px/2 - 350px);
-
+#topTxt{
+padding: 5rem;
+font-size: 4rem;
+display: flex;
+justify-content: center;
 font-family: 'IBM Plex Sans KR';
 font-style: normal;
 font-weight: 400;
@@ -30,81 +20,56 @@ font-size: 40px;
 line-height: 60px;
 
 color: #FFFFFF;
+
 }
 
-#body{
-    position: absolute;
-width: 1440px;
-height: 694px;
-left: 0px;
-top: 330px;
 
-background: #C9A050;
+#bot{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 4rem;
+    background: #C9A050;
 }
 
-#mult{
-    position: absolute;
-width: 296px;
-height: 53px;
-left: 327px;
-top: 518px;
+#botDiv{
+    padding: 5rem;
+    color: #fff;
+    text-align: center;
+}
 
+#text{
+padding: 1rem;
+font-size: 5rem;
+font-weight: 400;
 font-family: 'Homenaje';
 font-style: normal;
 font-weight: 400;
 font-size: 40px;
 line-height: 44px;
-
 color: #000000;
 }
 
-#nome{
-position: absolute;
-width: 291px;
-height: 33px;
-left: 341px;
-top: 623px;
-
-font-family: 'Homenaje';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 39px;
-
-color: #000000;
+#textD{
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-family: 'Homenaje';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 39px;
+    
+    color: #000000;
 }
 
-#mudar{
-position: absolute;
-width: 264px;
-height: 59px;
-left: 341px;
-top: 745px;
-
+#button{
 background: #C9B472;
-border: 1px solid #000000;
-box-sizing: border-box;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-#texte{
-width: 246px;
-height: 25px;
-left: calc(50% - 246px/2 - 245px);
-top: 760px;
-
-font-family: 'Hind Madurai';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-color: #000000;
-}
-
-#img{
-position: absolute;
-width: 323px;
-height: 394px;
-left: 896px;
-top: 458px;
+padding: .5rem;
+font-size: 1.3rem;
+font-weight: 600;
+border: 2px solid #000000;
+border-radius: 2rem;
+cursor: pointer;
 }
